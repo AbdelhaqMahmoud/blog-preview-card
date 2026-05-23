@@ -52,7 +52,12 @@ body{
     margin-bottom: 12px;
     cursor: pointer;
 }
-.title:hover{
+.title a{
+    color: #111111;
+    text-decoration: none;
+    outline: none;
+}
+.title a:hover,.title a:focus{
     color: #f4d03f;
 }
 .description{
